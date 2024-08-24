@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js",
+    "start": "node build/index.ts",
     "dev": "npx ts-node -T ./src/index.ts"
   },
   "devDependencies": {

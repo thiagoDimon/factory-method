@@ -7,9 +7,9 @@ export default class Guerreiro extends CriarPersonagem {
   }
 
   atacar(): void {
-    console.log("Guerreiro atacou com força: " + this.forca);
+    console.log(`Guerreiro ${this.nome} atacou com força: ${this.forca}`);
   }
   defender(): void {
-    console.log("Guerreiro defendeu com força: " + this.forca);
+    console.log(`Guerreiro ${this.nome} defendeu com força: ${this.forca}`);
   }
 }

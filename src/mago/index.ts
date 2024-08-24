@@ -7,9 +7,13 @@ export default class Mago extends CriarPersonagem {
   }
 
   atacar(): void {
-    console.log("Guerreiro atacou com inteligência: " + this.inteligencia);
+    console.log(
+      `Mago ${this.nome} atacou com inteligência: ${this.inteligencia}`
+    );
   }
   defender(): void {
-    console.log("Guerreiro defendeu com inteligência: " + this.inteligencia);
+    console.log(
+      `Mago ${this.nome} defendeu com inteligência: ${this.inteligencia}`
+    );
   }
 }

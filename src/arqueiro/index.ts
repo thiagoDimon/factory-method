@@ -7,9 +7,11 @@ export default class Arqueiro extends CriarPersonagem {
   }
 
   atacar(): void {
-    console.log("Arqueiro atacou com destreza: " + this.destreza);
+    console.log(`Arqueiro ${this.nome} atacou com destreza: ${this.destreza}`);
   }
   defender(): void {
-    console.log("Arqueiro defendeu com destreza: " + this.destreza);
+    console.log(
+      `Arqueiro ${this.nome} defendeu com destreza: ${this.destreza}`
+    );
   }
 }
